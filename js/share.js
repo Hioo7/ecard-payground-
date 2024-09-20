@@ -1,8 +1,8 @@
 document.getElementById('shareButton').addEventListener('click', function() {
     const shareData = {
-        title: 'Nithin Ramesh | BizVizCards',
-        text: 'Check out Nithin Ramesh\'s profile on BizVizCards!',
-        url: 'https://bizvizcards.com/ecard/NithinRamesh/'
+        title: 'Achal N Murthy | BizVizCards',
+        text: 'Check out Achal N Murthy\'s profile on BizVizCards!',
+        url: 'https://bizvizcards.com/ecard/AchalN/'
     };
 
     // Check if Web Share API is supported
