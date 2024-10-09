@@ -10,7 +10,7 @@ document.getElementById('shareButton').addEventListener('click', function() {
     fetch('https://bizvizcards.com/ecard/AchalN/images/achal.png')
         .then(res => res.blob())
         .then(blob => {
-            const file = new File([blob], 'nithin.png', { type: blob.type });
+            const file = new File([blob], 'achal.png', { type: blob.type });
             shareData.files = [file]; // Add the image file to the share data
 
             // Check if Web Share API is supported
